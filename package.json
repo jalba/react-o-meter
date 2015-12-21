@@ -1,0 +1,27 @@
+{
+  "name": "react-o-meter",
+  "version": "1.0.0",
+  "description": "A simple meter React component to display a minimum, maximum and a value",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/mocha test ./test/ --reporter list --compilers js:babel-core/register"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-polyfill": "^6.3.14",
+    "react": "^0.14.3",
+    "react-dom": "^0.14.3"
+  },
+  "devDependencies": {
+    "babel-core": "^6.3.21",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-react": "^6.3.13",
+    "babel-preset-stage-0": "^6.3.13",
+    "chai": "^3.4.1",
+    "jsdom": "^3.0.0",
+    "mocha": "^2.3.4",
+    "react-addons-test-utils": "^0.14.3",
+    "sinon": "^1.17.2"
+  }
+}
